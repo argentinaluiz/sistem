@@ -22,7 +22,3 @@ class UsersTableSeeder extends Seeder
         factory(\App\User::class, 3)->states('user');
     }
 }
-
-/*
- * Rodar o comando php artisan migrate:refresh --seed
- * /
